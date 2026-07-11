@@ -46,6 +46,7 @@ void changeTree(BinaryTreeNode<int> *root)
     tot += root->left->data;
   if (root->right)
     tot += root->right->data;
+  // Agar current node ke children hain, to parent ki value ko un dono children ke sum ke barabar update kar dete hain.
   if (root->left || root->right)
   {
     root->data = tot;
