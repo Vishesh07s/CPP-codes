@@ -37,3 +37,6 @@ public:
     return ans;
   }
 };
+
+//DIAGONAL METHOD 
+
